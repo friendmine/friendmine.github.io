@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+.gstack/
+__MACOSX/
+*.log
+*.tmp
+*.bak
+*.orig
+*.swp
+*~
+ai_ecosystem_book.zip

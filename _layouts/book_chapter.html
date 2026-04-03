@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{% assign current_volume = nil %}
+{% for volume in site.data.book.volumes %}
+    {% if volume.key == page.book_volume %}
+        {% assign current_volume = volume %}
+    {% endif %}
+{% endfor %}
+<div class="well article book-article">
+    <div class="book-page-header">
+        <span class="book-page-kicker">Chapter {{ page.chapter_number }}</span>
+        <div class="book-page-badge">{{ page.title }}</div>
+        <div class="book-chapter-meta">
+            {% if current_volume %}
+            <span>{{ current_volume.title }}</span>
+            {% endif %}
+            <span>{{ site.data.book.chapter_count }} 章在线可读</span>
+        </div>
+        <div class="book-page-links">
+            <a href="{{ site.baseurl }}/book/">返回书页首页</a>
+            <a href="{{ site.baseurl }}/book/guide/essential-reading/">先读必读 12 章</a>
+            <a href="{{ site.baseurl }}/book/full-index/">完整索引</a>
+        </div>
+    </div>
+    <div class="post-content book-content">
+        {{ content }}
+    </div>
+    <div class="book-pagination">
+        {% if page.prev_url %}
+        <a href="{{ site.baseurl }}{{ page.prev_url }}">
+            <small>上一章</small>
+            {{ page.prev_title }}
+        </a>
+        {% else %}
+        <span>
+            <small>上一章</small>
+            已经是第一章
+        </span>
+        {% endif %}
+        {% if page.next_url %}
+        <a href="{{ site.baseurl }}{{ page.next_url }}">
+            <small>下一章</small>
+            {{ page.next_title }}
+        </a>
+        {% else %}
+        <span>
+            <small>下一章</small>
+            已经是最后一章
+        </span>
+        {% endif %}
+    </div>
+</div>

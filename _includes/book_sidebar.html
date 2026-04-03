@@ -1,0 +1,16 @@
+{% assign book = site.data.book %}
+<div class="sidebar well sidebar-book">
+    <h1>Book</h1>
+    <p>{{ book.title }} 已经接入站点，可按导读切入，也可直接顺着 137 章完整阅读。</p>
+    <ul>
+        <li><a href="{{ site.baseurl }}/book/">书页首页</a></li>
+        <li><a href="{{ site.baseurl }}/book/guide/essential-reading/">必读 12 章</a></li>
+        <li><a href="{{ site.baseurl }}/book/full-index/">完整索引</a></li>
+    </ul>
+    {% if page.book_active %}
+    <div class="sidebar-book-current">
+        <strong>当前阅读</strong>
+        <span>{{ page.title }}</span>
+    </div>
+    {% endif %}
+</div>

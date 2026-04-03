@@ -1,0 +1,1037 @@
+{
+  "title": "从砂子到智能协作文明",
+  "subtitle": "从材料、芯片、系统、模型到 Agent 与协作文明的完整长链。",
+  "description": "这是一套把 AI 放回材料、计算、模型、系统与产业链中的系统性书稿。你可以按章节通读，也可以从导读和必读路径切入。",
+  "chapter_count": 137,
+  "guide_count": 5,
+  "guides": [
+    {
+      "key": "full-index",
+      "title": "重点章节深修版索引",
+      "url": "/book/full-index/",
+      "description": "本目录是《从砂子到智能协作文明》的主稿目录。"
+    },
+    {
+      "key": "glossary",
+      "title": "中册后半与下册开头术语表",
+      "url": "/book/guide/glossary/",
+      "description": "这份术语表主要服务于两段正文："
+    },
+    {
+      "key": "preface",
+      "title": "前言",
+      "url": "/book/guide/preface/",
+      "description": "如果你最近两年一直在关注 AI，你大概已经感受到一种很强的撕裂。"
+    },
+    {
+      "key": "book-description",
+      "title": "内容简介",
+      "url": "/book/guide/book-description/",
+      "description": "市面上已经有很多 AI 书。"
+    },
+    {
+      "key": "essential-reading",
+      "title": "必读12章路径",
+      "url": "/book/guide/essential-reading/",
+      "description": "如果你不准备一口气读完 137 章，最值得先读的是下面这 12 章。"
+    }
+  ],
+  "featured": [
+    {
+      "title": "前言",
+      "url": "/book/guide/preface/"
+    },
+    {
+      "title": "必读 12 章",
+      "url": "/book/guide/essential-reading/"
+    },
+    {
+      "title": "完整索引",
+      "url": "/book/full-index/"
+    }
+  ],
+  "volumes": [
+    {
+      "key": "volume_1",
+      "title": "上册 · 从砂子到计算",
+      "start": 1,
+      "end": 35,
+      "count": 35
+    },
+    {
+      "key": "volume_2",
+      "title": "中册 · 从数学到模型",
+      "start": 36,
+      "end": 73,
+      "count": 38
+    },
+    {
+      "key": "volume_3",
+      "title": "下册 · 从系统到文明",
+      "start": 74,
+      "end": 137,
+      "count": 64
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "第1章 信息是什么",
+      "url": "/book/chapters/001-what-is-information/",
+      "description": "如果你不先明白什么是信息，后面就几乎一定会把 AI 误读成一种仿佛正在直接面对世界的系统。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 2,
+      "title": "第2章 计算是什么",
+      "url": "/book/chapters/002-what-is-computation/",
+      "description": "计算不是神秘智能的替代词，它只是让状态按规则连续变化的一种组织方式，是用来大规模消除不确定性的物理流水线。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 3,
+      "title": "第3章 从算盘到图灵机",
+      "url": "/book/chapters/003-from-abacus-to-turing-machine/",
+      "description": "通用计算最重要的地方，不是某台机器很会算，而是同一台机器可以被反复改写，用来做许多原本彼此毫不相干的事。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 4,
+      "title": "第4章 智能是什么",
+      "url": "/book/chapters/004-what-is-intelligence/",
+      "description": "智能并不神秘，它更像是一种在复杂环境里持续判断、更新和行动的能力组织方式。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 5,
+      "title": "第5章 AI 的全景地图",
+      "url": "/book/chapters/005-ai-landscape-map/",
+      "description": "要理解 AI，最好先在脑海里建立一条纵轴：从材料和芯片，一路连到模型、系统、组织与协作。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 6,
+      "title": "第6章 为什么沙子里能长出芯片",
+      "url": "/book/chapters/006-why-sand-can-become-chips/",
+      "description": "如果没有二氧化硅独特的半导体“缝隙电性（受控单向导电）”，地球上迄今为止根本不可能存在任何能够进行概率与二进制运算的物理机器。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 7,
+      "title": "第7章 单晶硅与晶圆",
+      "url": "/book/chapters/007-single-crystal-silicon-and-wafers/",
+      "description": "如果要把几十亿到上百亿个晶体管稳定地做进一枚芯片，承载它们的那片晶圆就必须足够纯、足够平、足够一致。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 8,
+      "title": "第8章 晶体管的诞生",
+      "url": "/book/chapters/008-birth-of-the-transistor/",
+      "description": "晶体管（MOSFET）的关键，不是名字听起来多专业，而是它第一次让“用一个信号稳定控制另一条电流路径”这件事变得可规模复制。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 9,
+      "title": "第9章 芯片制造流程",
+      "url": "/book/chapters/009-chip-manufacturing-process/",
+      "description": "既然不可能靠手工在指甲盖大小的芯片上完成几百亿次连线，人类就只能借助光刻、沉积、刻蚀等流程，把复杂结构一层层“印”出来。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 10,
+      "title": "第10章 工艺节点与性能",
+      "url": "/book/chapters/010-process-nodes-and-performance/",
+      "description": "今天媒体反复提到的 3nm、5nm，早已不只是几何尺寸，而更像一组同时包含工艺、密度、功耗和商业竞争的代际标签。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 11,
+      "title": "第11章 良率、缺陷与量产现实",
+      "url": "/book/chapters/011-yield-defects-and-mass-production/",
+      "description": "芯片制造真正难的地方，不是偶尔做出一片能亮的样品，而是稳定地把良品率推到可以量产赚钱的水平。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 12,
+      "title": "第12章 封装与先进封装",
+      "url": "/book/chapters/012-packaging-and-advanced-packaging/",
+      "description": "先进封装真正解决的问题，不是把芯片简单包起来，而是在单芯片继续变大越来越困难之后，重新组织多颗芯片之间的协作方式。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 13,
+      "title": "第13章 测试、分级与出厂",
+      "url": "/book/chapters/013-test-grading-and-factory-release/",
+      "description": "一颗芯片并不是流片成功就算完成，它还必须经过一整套测试、分级和筛选，才能真正进入出厂与交付阶段。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 14,
+      "title": "第14章 半导体产业链",
+      "url": "/book/chapters/014-semiconductor-supply-chain/",
+      "description": "半导体产业链真正可怕的地方，不是环节多，而是每个关键环节都难以被快速替代，任何一处断裂都会沿整条链传导。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 15,
+      "title": "第15章 一颗 AI 芯片的完整生命旅程",
+      "url": "/book/chapters/015-full-lifecycle-of-an-ai-chip/",
+      "description": "一颗 AI 芯片真正的生命旅程，不是从流片成功开始，而是从设计、制造、测试、导入到被客户长期采用的完整链路。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 16,
+      "title": "第16章 布尔代数与逻辑门",
+      "url": "/book/chapters/016-boolean-algebra-and-logic-gates/",
+      "description": "布尔代数和逻辑门的重要性，不在于它们看起来多基础，而在于它们把抽象规则第一次稳定地压进了物理电路。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 17,
+      "title": "第17章 组合逻辑",
+      "url": "/book/chapters/017-combinational-logic/",
+      "description": "组合逻辑的关键，不是门电路能不能拼出功能，而是功能一旦变复杂，延迟、面积和功耗会立刻成为硬约束。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 18,
+      "title": "第18章 时序逻辑",
+      "url": "/book/chapters/018-sequential-logic/",
+      "description": "时序逻辑真正解决的问题，不是让电路更复杂，而是让系统第一次拥有了跨时间保存状态的能力。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 19,
+      "title": "第19章 存储器",
+      "url": "/book/chapters/019-memory/",
+      "description": "存储器不是计算机里的配角，而是决定系统速度、成本和可扩展性的核心约束之一。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 20,
+      "title": "第20章 MAC、乘法器与数据通路",
+      "url": "/book/chapters/020-mac-multipliers-and-data-paths/",
+      "description": "无论是全连接、卷积，还是 Transformer 里的大部分核心运算，落到底层之后都离不开一件事：**乘起来，再加进去。** 这种基本操作就是 MAC（乘积累加）。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 21,
+      "title": "第21章 流水线与并行",
+      "url": "/book/chapters/021-pipelines-and-parallelism/",
+      "description": "当单纯提高时钟频率越来越难，性能提升就不得不转向另一条路：让更多步骤在时间和空间上同时推进。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 22,
+      "title": "第22章 互连与通信",
+      "url": "/book/chapters/022-interconnects-and-communication/",
+      "description": "互连与通信之所以重要，不是因为它们存在感强，而是因为算力越大，系统越容易先卡在搬运和协调上。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 23,
+      "title": "第23章 ISA 与微架构",
+      "url": "/book/chapters/023-isa-and-microarchitecture/",
+      "description": "ISA 是软件眼中的机器接口，微架构是硬件内部把这套接口真正做出来的方法。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 24,
+      "title": "第24章 CPU、GPU、NPU 的本质差别",
+      "url": "/book/chapters/024-cpu-gpu-npu-core-differences/",
+      "description": "CPU、GPU、NPU 的差别，不只是哪个更快，而是它们分别在为不同类型的任务和资源约束服务。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 25,
+      "title": "第25章 计算机系统分层图",
+      "url": "/book/chapters/025-computer-system-layers/",
+      "description": "计算机系统分层的价值，不是把世界讲复杂，而是让复杂系统第一次能够被人类分层理解、分层修改和分层协作。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 26,
+      "title": "第26章 程序与抽象",
+      "url": "/book/chapters/026-programs-and-abstraction/",
+      "description": "程序让机器获得可重写的行为，抽象让这种可重写性不至于把人类自己压垮。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 27,
+      "title": "第27章 编译器",
+      "url": "/book/chapters/027-compilers/",
+      "description": "编译器是抽象世界的搬运工，它负责把人类能够理解的表达，压缩成机器愿意执行的现实。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 28,
+      "title": "第28章 操作系统",
+      "url": "/book/chapters/028-operating-systems/",
+      "description": "操作系统不负责替应用完成业务目标，它负责的是另一件更底层也更关键的事：让整台机器的资源能够长期、有序、可共享地被不同程序使用。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 29,
+      "title": "第29章 驱动与固件",
+      "url": "/book/chapters/029-drivers-and-firmware/",
+      "description": "没有驱动和固件，再先进的硬件也很难进入系统世界；它只是一块存在着、却无法被稳定调用的硅。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 30,
+      "title": "第30章 运行时系统",
+      "url": "/book/chapters/030-runtime-systems/",
+      "description": "运行时系统可以理解为程序真正开始执行之后的现场组织层。像 Java 虚拟机、Python 解释器和各类 runtime library，本质上都在承担这类工作。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 31,
+      "title": "第31章 数据结构与算法工程",
+      "url": "/book/chapters/031-data-structures-and-algorithm-engineering/",
+      "description": "数据结构与算法工程真正决定的，往往不是理论优雅，而是系统在真实负载下到底还能不能跑得稳、跑得动。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 32,
+      "title": "第32章 并发与分布式",
+      "url": "/book/chapters/032-concurrency-and-distributed-systems/",
+      "description": "并发与分布式的难点，从来不只是把任务拆开，而是拆开之后还能不能让结果、责任和故障边界保持可控。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 33,
+      "title": "第33章 云计算与数据中心",
+      "url": "/book/chapters/033-cloud-computing-and-data-centers/",
+      "description": "云计算和数据中心不是很多机器堆在一起，而是一套把算力、存储、网络和调度组织成工业能力的系统。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 34,
+      "title": "第34章 AI 软件栈全景",
+      "url": "/book/chapters/034-ai-software-stack-landscape/",
+      "description": "AI 软件栈真正难的地方，不在于层数多，而在于每一层都在决定能力能否被下一层稳定接住。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 35,
+      "title": "第35章 软件定义硬件价值",
+      "url": "/book/chapters/035-software-defines-hardware-value/",
+      "description": "一颗芯片能不能赢，很多时候不是先看它跑分多高，而是先看有没有人愿意长期把工作和产品押在它身上。",
+      "volume": "volume_1"
+    },
+    {
+      "number": 36,
+      "title": "第36章 向量、矩阵与张量",
+      "url": "/book/chapters/036-vectors-matrices-and-tensors/",
+      "description": "向量、矩阵和张量之所以是 AI 的通用语言，不是因为它们抽象，而是因为世界一旦进入可计算系统，就必须先被写成这种形状。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 37,
+      "title": "第37章 几何直觉与相似度",
+      "url": "/book/chapters/037-geometric-intuition-and-similarity/",
+      "description": "几何直觉和相似度之所以重要，是因为现代模型大量能力都建立在“对象在空间里如何彼此接近”这个判断上。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 38,
+      "title": "第38章 概率与不确定性",
+      "url": "/book/chapters/038-probability-and-uncertainty/",
+      "description": "概率与不确定性不是 AI 的补充知识，而是理解模型为什么能工作、又为什么会犯错的底层入口。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 39,
+      "title": "第39章 统计与数据",
+      "url": "/book/chapters/039-statistics-and-data/",
+      "description": "如果把智能系统看成一座建立在概率之上的建筑，那么统计数据就是最底层的地基材料。模型最终学到什么，很大程度上取决于它长期接触到怎样的数据分布。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 40,
+      "title": "第40章 导数、梯度与变化",
+      "url": "/book/chapters/040-derivatives-gradients-and-change/",
+      "description": "深度学习之所以能训练，不是因为模型会自己变好，而是因为梯度把“该往哪边改”变成了可计算的东西。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 41,
+      "title": "第41章 优化与训练",
+      "url": "/book/chapters/041-optimization-and-training/",
+      "description": "训练模型不是让程序多跑一会儿，而是在有限资源里不断调整参数，试图把错误压到更低的位置。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 42,
+      "title": "第42章 浮点数与数值稳定性",
+      "url": "/book/chapters/042-floating-point-and-numerical-stability/",
+      "description": "纸面上的数学追求精确，机器里的数学只能接受有限逼近；一旦进入大规模训练和推理，这种逼近误差就会从实现细节变成系统问题。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 43,
+      "title": "第43章 信息论与学习",
+      "url": "/book/chapters/043-information-theory-and-learning/",
+      "description": "从信息论角度看，机器学习可以被理解为一种持续压缩不确定性、提取可复用结构的过程。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 44,
+      "title": "第44章 近似、误差与工程现实",
+      "url": "/book/chapters/044-approximation-error-and-engineering-reality/",
+      "description": "真实 AI 系统几乎从不追求绝对精确，它真正追求的是在有限资源下，把误差控制在可接受范围内。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 45,
+      "title": "第45章 学习是什么",
+      "url": "/book/chapters/045-what-is-learning/",
+      "description": "机器不再只能依赖人类事先写下的大量规则，而是可以从经验中逐步学出自己的内部结构。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 46,
+      "title": "第46章 感知机与线性模型",
+      "url": "/book/chapters/046-perceptrons-and-linear-models/",
+      "description": "感知机和线性模型之所以值得单独讲，不是因为它们简单，而是因为它们第一次把“学习一条决策边界”变成了可计算对象。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 47,
+      "title": "第47章 多层神经网络",
+      "url": "/book/chapters/047-multilayer-neural-networks/",
+      "description": "多层神经网络真正改变的，不是把线性模型简单叠起来，而是让模型开始通过层层非线性变换，自己塑造越来越复杂的表示。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 48,
+      "title": "第48章 反向传播",
+      "url": "/book/chapters/048-backpropagation/",
+      "description": "反向传播最关键的意义，不是公式本身漂亮，而是它让多层网络第一次可以被系统地训练。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 49,
+      "title": "第49章 卷积神经网络",
+      "url": "/book/chapters/049-convolutional-neural-networks/",
+      "description": "卷积网络（CNN）的关键突破，不是“把图像塞进神经网络”，而是承认图像天然有空间结构，并据此把局部性和参数共享正式写进模型。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 50,
+      "title": "第50章 循环网络与序列建模",
+      "url": "/book/chapters/050-recurrent-networks-and-sequence-modeling/",
+      "description": "循环网络与序列建模要解决的核心问题，不是处理很多 token，而是让过去的信息能以某种方式进入现在。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 51,
+      "title": "第51章 表示学习与 embedding",
+      "url": "/book/chapters/051-representation-learning-and-embeddings/",
+      "description": "表示学习真正改变 AI 的地方，是它不再只让系统记住标签，而是让系统学会在内部空间里组织对象关系。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 52,
+      "title": "第52章 预训练与迁移学习",
+      "url": "/book/chapters/052-pretraining-and-transfer-learning/",
+      "description": "预训练与迁移学习的关键，不是先学一遍再复用，而是把通用结构能力先沉到底座里，再向具体任务外溢。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 53,
+      "title": "第53章 生成模型简史",
+      "url": "/book/chapters/053-brief-history-of-generative-models/",
+      "description": "生成模型历史真正记录的，不只是“哪些方法先后流行”，而是每一代方法都在试图解决同一个问题：怎样让机器学会产生看起来像真的内容。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 54,
+      "title": "第54章 深度学习的真实成本",
+      "url": "/book/chapters/054-true-cost-of-deep-learning/",
+      "description": "深度学习的真实成本，从来不只是一张算力账单，而是数据、工程、评测、组织和基础设施一起叠上去的结果。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 55,
+      "title": "第55章 扩散模型：从噪声到生成",
+      "url": "/book/chapters/055-diffusion-models/",
+      "description": "扩散模型真正改写的，不只是图像生成质量，而是生成式 AI 第一次找到了一条足够稳定、足够可控、足够工程化的主路线。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 56,
+      "title": "第56章 为什么 Transformer 改变了世界",
+      "url": "/book/chapters/056-why-transformer-changed-the-world/",
+      "description": "Transformer 改变世界，不是因为它赢了一次模型比赛，而是因为整个行业愿意围绕它重写算力、软件、产品和投资方向。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 57,
+      "title": "第57章 token 与 embedding",
+      "url": "/book/chapters/057-tokens-and-embeddings/",
+      "description": "不管送进模型的是散文、代码还是表格，系统都不会直接“理解整句话”，而是先把输入切成 token，再把这些离散符号映射成向量。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 58,
+      "title": "第58章 self-attention 的本质",
+      "url": "/book/chapters/058-essence-of-self-attention/",
+      "description": "Self-Attention 之所以改写现代 AI，不是因为它名字新，而是因为它第一次把“谁该看谁”做成了可并行、可扩展的统一机制。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 59,
+      "title": "第59章 Transformer 的模块化结构",
+      "url": "/book/chapters/059-modular-structure-of-transformer/",
+      "description": "Transformer 之所以能成为时代底座，不只是因为 attention 这个点子本身，而是因为它把复杂能力拆成了一组可以稳定堆叠、持续放大的模块。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 60,
+      "title": "第60章 预训练到底在学什么",
+      "url": "/book/chapters/060-what-pretraining-is-really-learning/",
+      "description": "预训练表面上是在做 next token prediction，底层上却是在逼模型把语言和世界里的大量统计结构压缩成一种可以持续利用的内部秩序。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 61,
+      "title": "第61章 从基础模型到对话模型",
+      "url": "/book/chapters/061-from-foundation-models-to-chat-models/",
+      "description": "基础模型到对话模型之间真正发生的，不是简单包装，而是一整套行为塑形、风险重写和产品化条件补充。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 62,
+      "title": "第62章 强化学习与 RLHF：从奖励到行为塑形",
+      "url": "/book/chapters/062-reinforcement-learning-and-rlhf/",
+      "description": "监督学习能教模型“像标准答案”，但很多行为问题并不能只靠标准答案解决。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 63,
+      "title": "第63章 推理阶段：prefill、decode 与 KV cache",
+      "url": "/book/chapters/063-prefill-decode-and-kv-cache-during-inference/",
+      "description": "如果模型在生成每个 token 时都要把全部历史重新完整计算一遍，推理几乎不可能在现实成本和时延里交付。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 64,
+      "title": "第64章 多模态模型",
+      "url": "/book/chapters/064-multimodal-models/",
+      "description": "文本当然强大，但现实世界并不首先以文本存在。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 65,
+      "title": "第65章 视觉语言模型：让语言系统看见图像",
+      "url": "/book/chapters/065-vision-language-models/",
+      "description": "视觉语言模型的关键，不是把图像和文本放到一起，而是让视觉输入真正进入语言系统可用的决策链。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 66,
+      "title": "第66章 世界模型：从预测到可行动的内部表征",
+      "url": "/book/chapters/066-world-models-from-prediction-to-actionable-representations/",
+      "description": "世界模型真正重要的地方，不是它会描述世界，而是它试图在内部形成一个可用于预测和行动的动态结构。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 67,
+      "title": "第67章 视频生成与时空建模",
+      "url": "/book/chapters/067-video-generation-and-spatiotemporal-modeling/",
+      "description": "视频真正难的地方，不是多生成几帧图像，而是让同一个对象、同一个场景、同一段事件在时间里保持连续和自洽。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 68,
+      "title": "第68章 具身智能与机器人闭环",
+      "url": "/book/chapters/068-embodied-intelligence-and-robotic-loops/",
+      "description": "具身智能真正增加的，不是机械臂和轮子，而是现实世界会把所有抽象错误都放大成真实后果。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 69,
+      "title": "第69章 代码模型与工具使用",
+      "url": "/book/chapters/069-code-models-and-tool-use/",
+      "description": "代码模型和工具使用的重要性，不在于多会写代码，而在于模型第一次开始稳定地影响外部系统。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 70,
+      "title": "第70章 长上下文、记忆与外部知识",
+      "url": "/book/chapters/070-long-context-memory-and-external-knowledge/",
+      "description": "模型参数里确实存着大量知识，但这并不意味着这些知识总能被完整、及时、低成本地调出来。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 71,
+      "title": "第71章 小模型、大模型与系统分工",
+      "url": "/book/chapters/071-small-models-large-models-and-system-division-of-labor/",
+      "description": "把所有任务都交给最大模型，通常并不是最成熟的系统设计。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 72,
+      "title": "第72章 MoE 与稀疏激活模型",
+      "url": "/book/chapters/072-moe-and-sparse-activation-models/",
+      "description": "MoE 的关键，不是让模型“无条件更大”，而是让系统在拥有巨大参数总量的同时，每次只激活其中一部分。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 73,
+      "title": "第73章 LLM 的边界与幻觉",
+      "url": "/book/chapters/073-limits-and-hallucinations-of-llms/",
+      "description": "LLM 的能力上升和幻觉风险并不是两条互不相干的线，而是同一套概率生成机制的两面。",
+      "volume": "volume_2"
+    },
+    {
+      "number": 74,
+      "title": "第74章 为什么人与 AI 的交互不能只理解成聊天",
+      "url": "/book/chapters/074-why-human-ai-interaction-is-not-just-chat/",
+      "description": "人与 AI 的交互不能只理解成聊天，因为真正有价值的部分不在对话表面，而在任务、状态和责任链如何被组织起来。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 75,
+      "title": "第75章 语音 AI：从 ASR、TTS 到实时语音交互",
+      "url": "/book/chapters/075-voice-ai-from-asr-to-real-time-speech-interaction/",
+      "description": "语音 AI 的真正难点，不是识别和合成都能做，而是整条实时交互链能不能自然、稳定、低延迟地成立。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 76,
+      "title": "第76章 Prompt：自然语言为什么会变成人机接口",
+      "url": "/book/chapters/076-why-prompt-natural-language-becomes-the-human-machine-interface/",
+      "description": "Prompt 之所以会变成人机接口，不是因为它比编程更严格，而是因为它让更多人第一次能用自然语言直接调动复杂能力。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 77,
+      "title": "第77章 Prompt 工程的边界",
+      "url": "/book/chapters/077-limits-of-prompt-engineering/",
+      "description": "Prompt 工程真正的边界，不是技巧不够多，而是很多问题从一开始就不属于 Prompt 层。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 78,
+      "title": "第78章 Function Call / Tool Use：AI 如何第一次碰到真实世界",
+      "url": "/book/chapters/078-how-function-call-and-tool-use-connect-ai-to-the-real-world/",
+      "description": "Function Call 和 Tool Use 的意义，不是让模型会调 API，而是让它第一次开始稳定地碰到真实世界的对象和副作用。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 79,
+      "title": "第79章 工具不是越多越好",
+      "url": "/book/chapters/079-why-more-tools-are-not-always-better/",
+      "description": "工具给少了，系统做不成事；工具给太多了，系统又会在选择、路由和权限边界上迅速失真。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 80,
+      "title": "第80章 Context Engineering：决定 AI 上限的关键工程",
+      "url": "/book/chapters/080-context-engineering-as-the-key-to-ai-upper-bound/",
+      "description": "Context Engineering 之所以重要，是因为模型能看到什么、以什么顺序看到，往往直接决定了它最终能做什么。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 81,
+      "title": "第81章 Context 的组成结构",
+      "url": "/book/chapters/081-structure-of-context/",
+      "description": "Context 不是一团长文本，而是一种有限认知带宽下的结构化资源分配。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 82,
+      "title": "第82章 记忆系统：短期记忆、长期记忆与工作记忆",
+      "url": "/book/chapters/082-short-term-long-term-and-working-memory/",
+      "description": "没有记忆，AI 每次都像刚见过你；有了记忆，它才可能从一次次对话工具升级成长期协作者。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 83,
+      "title": "第83章 检索、压缩与上下文装配",
+      "url": "/book/chapters/083-retrieval-compression-and-context-assembly/",
+      "description": "上下文工程的核心难题，不是“有没有信息”，而是怎样在有限窗口和有限成本里，把最该看的信息以最合适的形态送进模型。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 84,
+      "title": "第84章 Agent：从回答走向行动",
+      "url": "/book/chapters/084-agents-from-answers-to-actions/",
+      "description": "Agent 最值得警惕也最值得重视的地方，不是它会想得更久，而是它开始能够把错误连续地带进现实世界。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 85,
+      "title": "第85章 Agent 的内部结构",
+      "url": "/book/chapters/085-internal-structure-of-agents/",
+      "description": "一个能长期推进任务的 Agent，本质上不是“一个更会说话的模型”，而是一套把目标、状态、动作、反馈和纠偏组织起来的小型工作系统。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 86,
+      "title": "第86章 Agent 的工作模式",
+      "url": "/book/chapters/086-agent-working-modes/",
+      "description": "Agent 的工作模式没有唯一正确答案。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 87,
+      "title": "第87章 多智能体协作：什么时候真的比单 Agent 更好",
+      "url": "/book/chapters/087-multi-agent-collaboration/",
+      "description": "多智能体协作真正值得做的时刻，不是因为它听起来更像未来，而是因为任务已经天然需要多角色分工，而这份分工收益足以覆盖额外系统税。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 88,
+      "title": "第88章 人为什么必须在环",
+      "url": "/book/chapters/088-why-humans-must-stay-in-the-loop/",
+      "description": "人在环不是保守设计，而是把高风险动作、不可逆后果和价值判断密集的节点，从默认自动化链里单独拎出来。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 89,
+      "title": "第89章 Harness：给 Agent 套上工作框架",
+      "url": "/book/chapters/089-harness-as-the-work-framework-for-agents/",
+      "description": "如果 Agent 是会行动的内核，那么 Harness 就是在决定这种行动能不能被团队信任、被流程约束、被现实长期接住的那层骨架。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 90,
+      "title": "第90章 Harness 的五层结构",
+      "url": "/book/chapters/090-five-layer-structure-of-harness/",
+      "description": "Harness 需要分层，不是为了把架构图画得更漂亮，而是为了让系统变复杂以后，仍然知道界面、上下文、动作、控制和流程分别该由谁负责。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 91,
+      "title": "第91章 Harness 与 Agent 的区别",
+      "url": "/book/chapters/091-difference-between-harness-and-agent/",
+      "description": "Agent 负责把事情往前推进，Harness 负责决定这件事在什么边界里推进、怎样被看见、怎样被接管、以及最终怎样被交付。前者更像执行智能，后者更像组织智能。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 92,
+      "title": "第92章 不同场景下的 Harness 形态",
+      "url": "/book/chapters/092-harness-forms-across-scenarios/",
+      "description": "Harness 没有统一外观，因为它不是一种固定界面，而是一套围绕真实任务不断变形的组织结构。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 93,
+      "title": "第93章 人与 Agent 协作的真实流程",
+      "url": "/book/chapters/093-real-workflow-of-human-agent-collaboration/",
+      "description": "人机协作真正难的地方，从来不是“能不能对上几轮话”，而是能不能把人的模糊意图稳定翻译成一条可以被系统执行、被组织接住、被结果验证的工作链。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 94,
+      "title": "第94章 为什么未来的 AI 产品不是一个模型，而是一个 Harness",
+      "url": "/book/chapters/094-why-future-ai-products-are-harnesses-not-models/",
+      "description": "未来 AI 产品最值钱的部分，不会只是模型有多强，而会是“谁更会把模型组织进真实工作”。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 95,
+      "title": "第95章 Agent 失败学",
+      "url": "/book/chapters/095-agent-failure-studies/",
+      "description": "真正成熟的 Agent 系统，不是沿着理想成功路径长出来的，而是沿着各种现实失败路径被一点点倒逼出来的。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 96,
+      "title": "第96章 观察、回放、评估与调试",
+      "url": "/book/chapters/096-observation-replay-evaluation-and-debugging/",
+      "description": "没有可观察性，Agent 就只是一个会动却难以理解的系统；没有回放、评估和调试体系，团队就无法把偶然成功变成稳定能力。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 97,
+      "title": "第97章 从单次对话到长期协作平台",
+      "url": "/book/chapters/097-from-single-conversations-to-long-term-collaboration-platforms/",
+      "description": "AI 系统真正走向生产力，不是因为它会多聊几轮，而是因为它逐步拥有了长期状态、项目记忆、多人协同、权限治理和持续交付能力，最终从一次次会话长成一套协作平台。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 98,
+      "title": "第98章 数据工程",
+      "url": "/book/chapters/098-data-engineering/",
+      "description": "很多人一谈 AI 就先想到模型。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 99,
+      "title": "第99章 训练工程",
+      "url": "/book/chapters/099-training-engineering/",
+      "description": "训练工程真正要解决的，不是“模型能不能跑起来”，而是怎样把一次次高成本实验组织成可复现、可恢复、可扩展、也能被团队稳定协作的工业流程。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 100,
+      "title": "第100章 模型评测",
+      "url": "/book/chapters/100-model-evaluation/",
+      "description": "评测不是训练之后附带做一下的检查项，而是决定模型能不能进入下一步工程流程的判断层。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 101,
+      "title": "第101章 Agent 与 Harness 的评测",
+      "url": "/book/chapters/101-evaluating-agents-and-harnesses/",
+      "description": "执行型 AI 的评测，不能只问答案对不对，还必须追问它是怎样做成的、用了什么代价、过程是否稳定、人在什么时候需要介入，以及整套系统究竟值不值得这样运行。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 102,
+      "title": "第102章 推理优化",
+      "url": "/book/chapters/102-inference-optimization/",
+      "description": "让模型跑起来并不难，真正难的是让它在真实业务里跑得起、跑得快、跑得稳，而且这个速度、成本和质量的组合仍然值得长期维持。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 103,
+      "title": "第103章 模型服务化",
+      "url": "/book/chapters/103-model-serving/",
+      "description": "真正决定一家公司能不能把模型变成生意的，往往不是模型本身，而是它有没有把模型改造成可承诺、可调度、可运营的服务能力。服务层一旦成熟，它还会反过来塑造模型路线本身：什么模型值得保留、什么能力值得卖、什么延迟和价格被定义成产品标准。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 104,
+      "title": "第104章 线上观测与回归",
+      "url": "/book/chapters/104-online-observability-and-regression/",
+      "description": "一个 AI 系统真正上线之后，最可怕的不是它某一天彻底坏掉，而是它在没有人察觉的情况下慢慢变坏；线上观测与回归治理，就是用来对抗这种“悄悄退化”的。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 105,
+      "title": "第105章 从 Demo 到生产",
+      "url": "/book/chapters/105-from-demo-to-production/",
+      "description": "从一个能在理想环境里跑出结果的 Demo，跨到一个可以长期承受真实业务压力的生产系统，中间隔着的从来不是“小修小补”，而是一整套责任世界。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 106,
+      "title": "第106章 为什么 AI 需要新的硬件",
+      "url": "/book/chapters/106-why-ai-needs-new-hardware/",
+      "description": "AI 并不是把旧计算机多跑几遍那么简单。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 107,
+      "title": "第107章 AI 芯片的基本组成",
+      "url": "/book/chapters/107-core-components-of-ai-chips/",
+      "description": "一颗 AI 芯片不是孤立的算力块，而是一套围绕张量计算、数据搬运和存储层级被精密组织起来的微型工厂。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 108,
+      "title": "第108章 精度革命",
+      "url": "/book/chapters/108-precision-revolution/",
+      "description": "AI 之所以能越做越大，一个关键原因是行业逐渐接受了这样一个现实：",
+      "volume": "volume_3"
+    },
+    {
+      "number": 109,
+      "title": "第109章 训练集群与推理集群",
+      "url": "/book/chapters/109-training-clusters-and-inference-clusters/",
+      "description": "训练集群和推理集群看起来都在“跑模型”，但它们服务的是两套完全不同的系统目标：前者在制造能力，后者在交付能力。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 110,
+      "title": "第110章 大模型推理的真正瓶颈",
+      "url": "/book/chapters/110-true-bottlenecks-of-large-model-inference/",
+      "description": "大模型推理最常见的误解，是把问题理解成“算不动”；而现实里，真正卡住系统的常常是带宽、容量、通信、缓存和服务调度。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 111,
+      "title": "第111章 编译器如何面向 AI 芯片",
+      "url": "/book/chapters/111-how-compilers-target-ai-chips/",
+      "description": "AI 编译器的任务，不只是把模型“翻译”成指令，而是把模型图重写成一套真正适合目标芯片执行的数据流计划，让纸面算力有机会在现实里被兑现。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 112,
+      "title": "第112章 从模型图到设备执行计划",
+      "url": "/book/chapters/112-from-model-graphs-to-device-execution-plans/",
+      "description": "模型图到真正设备执行之间，隔着一长串优化、划分、布局和调度决策；模型最终跑得好不好，往往就取决于这条转换链做得够不够细、够不够贴近硬件现实。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 113,
+      "title": "第113章 端侧、边缘、云侧 AI 基础设施",
+      "url": "/book/chapters/113-ai-infrastructure-across-device-edge-and-cloud/",
+      "description": "AI 基础设施没有唯一正确的部署位置。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 114,
+      "title": "第114章 能耗、散热与 TCO",
+      "url": "/book/chapters/114-power-thermal-and-tco/",
+      "description": "算力不是抽象指标，它最终都会变成功耗、热量和账单。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 115,
+      "title": "第115章 未来硬件方向",
+      "url": "/book/chapters/115-future-hardware-directions/",
+      "description": "未来硬件创新的核心，不是把旧芯片继续线性缩小或堆大，而是重新组织计算、存储和互连这三件最基本的事。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 116,
+      "title": "第116章 为什么 AI 时代安全问题更严重",
+      "url": "/book/chapters/116-why-security-is-harder-in-the-ai-era/",
+      "description": "AI 时代的安全之所以更严重，不是因为旧风险消失了，而是因为数据、模型、工具和行动能力第一次被密集地绑进同一个系统里，一处薄弱点就更容易沿整条链放大成系统性后果。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 117,
+      "title": "第117章 现代密码学基础",
+      "url": "/book/chapters/117-foundations-of-modern-cryptography/",
+      "description": "如果说 AI 决定系统能做什么，那么密码学决定系统在什么信任边界里做这些事。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 118,
+      "title": "第118章 隐私保护技术地图",
+      "url": "/book/chapters/118-privacy-preserving-technology-map/",
+      "description": "隐私保护不是一项单点技术，而是一整张在不同威胁模型、不同信任假设和不同成本约束下不断做折中的技术地图。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 119,
+      "title": "第119章 FHE 的基本思想",
+      "url": "/book/chapters/119-core-ideas-of-fhe/",
+      "description": "FHE 最迷人的地方，在于它试图做到一件近乎违反直觉的事：数据始终不解密，计算却还能继续发生。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 120,
+      "title": "第120章 FHE 的计算代价与工程难点",
+      "url": "/book/chapters/120-computational-cost-and-engineering-challenges-of-fhe/",
+      "description": "FHE 之所以还没有大规模改变世界，不是因为想法不够美，而是因为它把隐私保护的代价推到了极高的工程水平。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 121,
+      "title": "第121章 FHE 与 AI 的结合点",
+      "url": "/book/chapters/121-where-fhe-meets-ai/",
+      "description": "FHE 与 AI 的结合，不是把整个模型原封不动搬进密文世界，而是找出那些最值得保护、也最可能被加密计算承接的关键链路。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 122,
+      "title": "第122章 隐私 AI 的系统设计",
+      "url": "/book/chapters/122-system-design-for-private-ai/",
+      "description": "隐私 AI 真正难的，不是会不会某项技术，而是能不能把数据、密钥、部署位置、计算路径和业务流程一起组织成一套可信又可运行的系统架构。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 123,
+      "title": "第123章 Agent 时代的新安全问题",
+      "url": "/book/chapters/123-new-security-issues-in-the-agent-era/",
+      "description": "Agent 时代最危险的新变化，是系统不再只输出内容，而开始理解环境、调用工具并采取行动，这让安全问题从内容治理升级成执行治理。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 124,
+      "title": "第124章 提示注入、工具越权与数据泄漏",
+      "url": "/book/chapters/124-prompt-injection-tool-abuse-and-data-leakage/",
+      "description": "Agent 比单纯 LLM 更需要安全框架，因为它不仅会被误导，还可能在被误导之后代表你去使用权限、调用工具并触发现实动作。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 125,
+      "title": "第125章 可控、可审计、可信 AI",
+      "url": "/book/chapters/125-controllable-auditable-and-trustworthy-ai/",
+      "description": "所谓可信 AI，不是保证系统永远不会犯错，而是保证它有明确边界、可见过程、可追责任，并且在出错时仍然能被控制和纠偏。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 126,
+      "title": "第126章 AI 应用全景",
+      "url": "/book/chapters/126-ai-application-landscape/",
+      "description": "AI 应用的真正图景，不是几个爆款产品突然变聪明，而是越来越多行业开始把智能当作新的能力层，嵌进原有工作系统和价值链里。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 127,
+      "title": "第127章 企业 AI 的真实落地",
+      "url": "/book/chapters/127-real-world-enterprise-ai-adoption/",
+      "description": "企业 AI 最难的地方从来不是“让一个 Demo 看起来聪明”，而是让一个组织愿意长期把关键工作交给它。没有长期 owner、没有持续维护者、没有能承责的人，很多项目即使试点漂亮，也很快会退回一次性热闹。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 128,
+      "title": "第128章 AI 产品方法论",
+      "url": "/book/chapters/128-ai-product-methodology/",
+      "description": "AI 产品不是“找个模型加进去”，而是先定义场景、责任边界和价值闭环，再决定模型在其中扮演什么角色。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 129,
+      "title": "第129章 开源、闭源与私有部署",
+      "url": "/book/chapters/129-open-source-closed-source-and-private-deployment/",
+      "description": "开源、闭源和私有部署不是意识形态之争，而是能力、成本、控制权与风险边界之间的三种不同平衡方式。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 130,
+      "title": "第130章 AI 创业与商业模式",
+      "url": "/book/chapters/130-ai-startups-and-business-models/",
+      "description": "AI 创业不是只有“做个应用”这一条路，它实际上沿着基础模型、平台、工具、应用和芯片五条不同商业路径展开，而不同路径吃的是完全不同的红利。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 131,
+      "title": "第131章 芯片、模型、应用三条商业链",
+      "url": "/book/chapters/131-three-commercial-chains-of-chips-models-and-applications/",
+      "description": "AI 产业里的钱并不是沿一条线流动，而是在芯片、模型和应用三条商业链上，以完全不同的方式被捕获。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 132,
+      "title": "第132章 劳动力、组织与职业变化",
+      "url": "/book/chapters/132-labor-organization-and-career-change/",
+      "description": "AI 对劳动力最深的影响，往往不是简单替掉一批人，而是重新切分任务、重写岗位边界，并迫使组织重新设计协作方式。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 133,
+      "title": "第133章 教育如何被 AI 重构",
+      "url": "/book/chapters/133-how-ai-reconstructs-education/",
+      "description": "AI 对教育的真正冲击，不只是给学生多一个答题工具，而是迫使教育重新回答三件更根本的事：该教什么、怎么教、如何评估。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 134,
+      "title": "第134章 科研与制造如何被 AI 重构",
+      "url": "/book/chapters/134-how-ai-reconstructs-research-and-manufacturing/",
+      "description": "AI 对科研和制造的影响，不只是加快某个局部环节，而是开始把“发现问题、设计方案、验证结果”这整条知识与产品生成链重新组织起来。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 135,
+      "title": "第135章 国家竞争、算力主权与产业安全",
+      "url": "/book/chapters/135-national-competition-compute-sovereignty-and-industrial-security/",
+      "description": "当 AI 开始变成基础设施，真正稀缺的就不再只是某个模型成绩，而是一个国家能不能把算力、软件、产业和制度组织成长期闭环能力。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 136,
+      "title": "第136章 AI 的边界、风险与谦卑",
+      "url": "/book/chapters/136-boundaries-risks-and-humility-of-ai/",
+      "description": "技术最危险的时候，往往不是它还弱，而是它已经足够强到让人误以为边界已经消失。",
+      "volume": "volume_3"
+    },
+    {
+      "number": 137,
+      "title": "第137章 从砂子到智能协作文明",
+      "url": "/book/chapters/137-from-sand-to-the-civilization-of-intelligent-collaboration/",
+      "description": "这本书真正想讲清楚的，不是 AI 为什么看起来突然变强，而是人类怎样把一条从砂子出发的长链，最后组织成新的协作基础设施。",
+      "volume": "volume_3"
+    }
+  ]
+}
