@@ -1,7 +1,56 @@
 ---
 layout: default
+title: "Friendmine"
 ---
 {% assign trans = site.data.values[site.lan] %}
+{% assign book = site.data.book %}
+
+<div class="well article home-hero">
+    <div class="home-hero-copy">
+        <p class="eyebrow">Book On Site</p>
+        <h1>{{ book.title }}</h1>
+        <p class="lead">{{ book.description }}</p>
+        <div class="home-hero-actions">
+            <a class="btn btn-primary" href="{{ site.baseurl }}/book/">开始阅读</a>
+            <a class="btn btn-default" href="{{ site.baseurl }}/book/guide/essential-reading/">先读必读 12 章</a>
+        </div>
+    </div>
+    <div class="home-hero-stats">
+        <div class="stat-card">
+            <span class="stat-value">{{ book.chapter_count }}</span>
+            <span class="stat-label">章节</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value">{{ book.guide_count }}</span>
+            <span class="stat-label">导读页</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-value">3</span>
+            <span class="stat-label">主线分册</span>
+        </div>
+    </div>
+</div>
+
+<div class="well article book-entry-grid">
+    <div class="section-heading">
+        <h2>怎么进入这本书</h2>
+        <p>可以先从导读切入，也可以直接沿整条链往下读。</p>
+    </div>
+    <div class="book-entry-cards">
+        {% for item in book.featured %}
+        <a class="book-entry-card" href="{{ site.baseurl }}{{ item.url }}">
+            <span class="card-kicker">Entry {{ forloop.index }}</span>
+            <strong>{{ item.title }}</strong>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+
+{% if paginator.posts and paginator.posts.size > 0 %}
+<div class="section-heading">
+    <h2>Recent Posts</h2>
+    <p>书之外，站点原有的博客内容仍然保留在这里。</p>
+</div>
 {% for post in paginator.posts %}
 <div class="well article">
 
@@ -45,3 +94,4 @@ layout: default
     <a class="btn btn-default" href="{{ site.baseurl}}/page{{ paginator.next_page }}" class="next">Older</a>
   {% endif %}
 </div>
+{% endif %}

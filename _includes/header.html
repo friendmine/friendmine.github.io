@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>{{ site.name }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 	<link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
 {% include isso-comments.html %}
 </head>
 
-<body>
+<body class="{% if page.book_active %}book-active{% endif %}">
 
 <div class="container-fluid">
     <div class="row-fluid">
@@ -32,11 +32,12 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     {% assign trans = site.data.values[site.lan] %}
-                    <li class="active"><a href="{{ site.baseurl }}/">{{ trans.home }}</a></li>
-                    <li class="active"><a href="{{ site.baseurl }}/archive.html">{{ trans.archive }}</a></li>
-                    <li class="active"><a href="{{ site.baseurl }}/categories.html">{{ trans.categories }}</a></li>
-                    <li class="active"><a href="{{ site.baseurl }}/tags.html">{{ trans.tags }}</a></li>
-                    <li class="active"><a href="{{ site.baseurl }}/about.html">{{ trans.about }}</a></li>
+                    <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{ site.baseurl }}/">{{ trans.home }}</a></li>
+                    <li class="{% if page.book_active %}active{% endif %}"><a href="{{ site.baseurl }}/book/">{{ trans.book }}</a></li>
+                    <li class="{% if page.url == '/archive.html' %}active{% endif %}"><a href="{{ site.baseurl }}/archive.html">{{ trans.archive }}</a></li>
+                    <li class="{% if page.url == '/categories.html' %}active{% endif %}"><a href="{{ site.baseurl }}/categories.html">{{ trans.categories }}</a></li>
+                    <li class="{% if page.url == '/tags.html' %}active{% endif %}"><a href="{{ site.baseurl }}/tags.html">{{ trans.tags }}</a></li>
+                    <li class="{% if page.url == '/about.html' %}active{% endif %}"><a href="{{ site.baseurl }}/about.html">{{ trans.about }}</a></li>
                 </ul>
             </div>
         </div>
