@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">亚东</title>
+  <desc id="desc">亚东站点标识</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="74" fill="url(#bg)"/>
+  <circle cx="80" cy="80" r="71" fill="none" stroke="url(#stroke)" stroke-width="2.5" opacity="0.9"/>
+  <circle cx="80" cy="80" r="54" fill="rgba(255,255,255,0.05)"/>
+  <text x="80" y="92" text-anchor="middle" font-size="42" font-weight="700" fill="#ffffff"
+        font-family="'Noto Sans SC','PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif"
+        letter-spacing="2">亚东</text>
+</svg>
