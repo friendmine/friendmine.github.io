@@ -1,18 +1,18 @@
 {% include header.html %}
 
 <div class="wrap">
-    <div class="container container-left">
-        <div class="row">
+    <div class="container container-left site-shell{% if page.book_active %} site-shell-book{% endif %}{% if page.no_sidebar %} site-shell-full{% endif %}">
+        <div class="row site-grid">
             {% unless page.no_sidebar %}
-            <div class="col-md-3 hidden-xs">
+            <aside class="col-md-3 hidden-xs site-sidebar">
                 {% include sidebar.html %}
-            </div>
-            <div class="col-md-9">
+            </aside>
+            <main class="col-md-9 site-main">
             {% else %}
-            <div class="col-md-12">
+            <main class="col-md-12 site-main site-main-full">
             {% endunless %}
                 {{ content }}
-            </div>
+            </main>
         </div>
     </div>
 

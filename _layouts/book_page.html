@@ -3,8 +3,18 @@ layout: default
 ---
 <div class="well article book-article">
     <div class="book-page-header">
+        <div class="book-breadcrumb">
+            <a href="{{ site.baseurl }}/">首页</a>
+            <span>/</span>
+            <a href="{{ site.baseurl }}/book/">全书</a>
+            <span>/</span>
+            <span>{{ page.title }}</span>
+        </div>
         <span class="book-page-kicker">Guide</span>
-        <div class="book-page-badge">{{ page.title }}</div>
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}
+        <p class="book-page-summary">{{ page.description }}</p>
+        {% endif %}
         <div class="book-page-links">
             <a href="{{ site.baseurl }}/book/">书页首页</a>
             <a href="{{ site.baseurl }}/book/guide/essential-reading/">必读 12 章</a>

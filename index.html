@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Friendmine"
+title: "亚东"
 no_sidebar: true
 ---
 {% assign trans = site.data.values[site.lan] %}
@@ -8,9 +8,10 @@ no_sidebar: true
 
 <div class="well article home-hero">
     <div class="home-hero-copy">
-        <p class="eyebrow">Book On Site</p>
+        <p class="eyebrow">Online Book</p>
         <h1>{{ book.title }}</h1>
-        <p class="lead">{{ book.description }}</p>
+        <p class="lead">{{ book.subtitle }}</p>
+        <p class="home-hero-note">{{ book.description }}</p>
         <div class="home-hero-actions">
             <a class="btn btn-primary" href="{{ site.baseurl }}/book/">开始阅读</a>
             <a class="btn btn-default" href="{{ site.baseurl }}/book/guide/essential-reading/">先读必读 12 章</a>
@@ -28,6 +29,33 @@ no_sidebar: true
         <div class="stat-card">
             <span class="stat-value">3</span>
             <span class="stat-label">主线分册</span>
+        </div>
+    </div>
+</div>
+
+<div class="well article reading-paths">
+    <div class="section-heading">
+        <h2>怎么读这本书</h2>
+        <p>不同读者不需要同一条入口。先确定你的目标，再进入对应路径。</p>
+    </div>
+    <div class="book-guide-grid">
+        <div class="book-guide-card reading-mode-card">
+            <span class="card-kicker">For First Visit</span>
+            <strong>第一次进入</strong>
+            <p>先读前言，再走必读 12 章，先建立全局地图。</p>
+            <a href="{{ site.baseurl }}/book/guide/preface/">从前言开始</a>
+        </div>
+        <div class="book-guide-card reading-mode-card">
+            <span class="card-kicker">For Fast Context</span>
+            <strong>快速建立框架</strong>
+            <p>直接从导读页和术语表进入，先掌握主线和关键术语。</p>
+            <a href="{{ site.baseurl }}/book/guide/glossary/">打开术语表</a>
+        </div>
+        <div class="book-guide-card reading-mode-card">
+            <span class="card-kicker">For Full Read</span>
+            <strong>完整通读</strong>
+            <p>从全书索引或第一章进入，按材料、模型、系统三段顺序读。</p>
+            <a href="{{ site.baseurl }}/book/full-index/">进入完整索引</a>
         </div>
     </div>
 </div>

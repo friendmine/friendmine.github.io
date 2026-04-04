@@ -8,7 +8,8 @@ book_active: true
 <div class="well article book-landing-hero">
     <p class="eyebrow">Online Book</p>
     <h1>{{ book.title }}</h1>
-    <p class="lead">{{ book.description }}</p>
+    <p class="lead">{{ book.subtitle }}</p>
+    <p class="book-landing-intro">{{ book.description }}</p>
     <div class="book-landing-meta">
         <span>{{ book.chapter_count }} 章</span>
         <span>{{ book.guide_count }} 个导读页</span>
@@ -18,6 +19,33 @@ book_active: true
         <a class="btn btn-primary" href="{{ site.baseurl }}/book/guide/preface/">先看前言</a>
         <a class="btn btn-default" href="{{ site.baseurl }}/book/guide/essential-reading/">按必读路径进入</a>
         <a class="btn btn-default" href="{{ site.baseurl }}/book/full-index/">查看完整索引</a>
+    </div>
+</div>
+
+<div class="well article reading-paths">
+    <div class="section-heading">
+        <h2>阅读方式</h2>
+        <p>你可以把这里当成一本书，也可以把它当成一张完整的 AI 长链地图。</p>
+    </div>
+    <div class="book-guide-grid">
+        <div class="book-guide-card reading-mode-card">
+            <span class="card-kicker">Route 01</span>
+            <strong>先建立地图</strong>
+            <p>先读前言、内容简介和必读路径，快速知道整本书在解决什么问题。</p>
+            <a href="{{ site.baseurl }}/book/guide/book-description/">看内容简介</a>
+        </div>
+        <div class="book-guide-card reading-mode-card">
+            <span class="card-kicker">Route 02</span>
+            <strong>直接按主题进入</strong>
+            <p>如果你更关心模型、Agent、芯片或安全，可以直接从对应分册进入。</p>
+            <a href="#book-volumes">跳到分册</a>
+        </div>
+        <div class="book-guide-card reading-mode-card">
+            <span class="card-kicker">Route 03</span>
+            <strong>顺序完整通读</strong>
+            <p>从第一章往后读，整本书会沿一条完整长链逐层展开。</p>
+            <a href="{{ site.baseurl }}/book/chapters/001-what-is-information/">从第 1 章开始</a>
+        </div>
     </div>
 </div>
 
@@ -37,16 +65,21 @@ book_active: true
     </div>
 </div>
 
-<div class="well article book-volumes">
+<div class="well article book-volumes" id="book-volumes">
     <div class="section-heading">
         <h2>三条主线分册</h2>
         <p>这本书不是只谈模型，而是沿着一条完整的技术与组织长链展开。</p>
     </div>
     <div class="book-volume-grid">
         {% for volume in book.volumes %}
+        {% assign volume_chapters = book.chapters | where: "volume", volume.key %}
+        {% assign volume_first = volume_chapters | first %}
         <div class="book-volume-card">
             <strong>{{ volume.title }}</strong>
             <p>第 {{ volume.start }} 章到第 {{ volume.end }} 章，共 {{ volume.count }} 章。</p>
+            {% if volume_first %}
+            <a class="book-volume-link" href="{{ site.baseurl }}{{ volume_first.url }}">从这一册开始</a>
+            {% endif %}
         </div>
         {% endfor %}
     </div>

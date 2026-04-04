@@ -27,7 +27,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.name }}</a>
+                <a class="navbar-brand site-brand" href="{{ site.baseurl }}/">
+                    <span class="site-brand-mark" aria-hidden="true">亚</span>
+                    <span class="site-brand-copy">
+                        <strong>{{ site.name }}</strong>
+                        <small>在线书站</small>
+                    </span>
+                </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -35,6 +41,9 @@
                     <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{ site.baseurl }}/">{{ trans.home }}</a></li>
                     <li class="{% if page.book_active %}active{% endif %}"><a href="{{ site.baseurl }}/book/">{{ trans.book }}</a></li>
                 </ul>
+                <div class="nav navbar-nav navbar-right site-nav-cta hidden-xs">
+                    <a href="{{ site.baseurl }}/book/guide/essential-reading/">必读 12 章</a>
+                </div>
             </div>
         </div>
     </div>
