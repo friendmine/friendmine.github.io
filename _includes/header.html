@@ -34,10 +34,6 @@
                     {% assign trans = site.data.values[site.lan] %}
                     <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{ site.baseurl }}/">{{ trans.home }}</a></li>
                     <li class="{% if page.book_active %}active{% endif %}"><a href="{{ site.baseurl }}/book/">{{ trans.book }}</a></li>
-                    <li class="{% if page.url == '/archive.html' %}active{% endif %}"><a href="{{ site.baseurl }}/archive.html">{{ trans.archive }}</a></li>
-                    <li class="{% if page.url == '/categories.html' %}active{% endif %}"><a href="{{ site.baseurl }}/categories.html">{{ trans.categories }}</a></li>
-                    <li class="{% if page.url == '/tags.html' %}active{% endif %}"><a href="{{ site.baseurl }}/tags.html">{{ trans.tags }}</a></li>
-                    <li class="{% if page.url == '/about.html' %}active{% endif %}"><a href="{{ site.baseurl }}/about.html">{{ trans.about }}</a></li>
                 </ul>
             </div>
         </div>

@@ -11,36 +11,8 @@
         -->
     </header>
     <div class="text-center">
-        {{ site.description }}
+        《从砂子到智能协作文明》的在线阅读入口。
     </div>
 </div>
 
 {% include book_sidebar.html %}
-
-{% if site.data.tops.size > 0 %}
-<div class="sidebar well">
-    <h1>{{ trans.top_posts }}</h1>
-    <ul>
-        {% for top in site.data.tops %}
-            {% for post in site.posts %}
-                {% if post.url contains top.url %}
-                    <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-                {% endif %}
-            {% endfor %}
-        {% endfor %}
-    </ul>
-</div>
-{% endif %}
-
-<div class="sidebar well">
-    <h1>{{ trans.recent_posts }}</h1>
-    <ul>
-        {% for post in site.posts limit:5 %}
-          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-    </ul>
-</div>
-
-<div class="sidebar well">
-    {% include links-list.html %}
-</div>

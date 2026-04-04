@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: friendmine
-description: A static home for notes and the online book 《从砂子到智能协作文明》
+description: 《从砂子到智能协作文明》在线阅读入口
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://friendmine.github.io/

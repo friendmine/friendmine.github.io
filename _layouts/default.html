@@ -3,10 +3,14 @@
 <div class="wrap">
     <div class="container container-left">
         <div class="row">
+            {% unless page.no_sidebar %}
             <div class="col-md-3 hidden-xs">
                 {% include sidebar.html %}
             </div>
             <div class="col-md-9">
+            {% else %}
+            <div class="col-md-12">
+            {% endunless %}
                 {{ content }}
             </div>
         </div>
