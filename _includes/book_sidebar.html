@@ -1,16 +1,61 @@
 {% assign book = site.data.book %}
-<div class="sidebar well sidebar-book">
-    <h1>Book</h1>
-    <p>{{ book.title }} 已经接入站点，可按导读切入，也可直接顺着 137 章完整阅读。</p>
-    <ul>
-        <li><a href="{{ site.baseurl }}/book/">书页首页</a></li>
-        <li><a href="{{ site.baseurl }}/book/guide/essential-reading/">必读 12 章</a></li>
-        <li><a href="{{ site.baseurl }}/book/full-index/">完整索引</a></li>
-    </ul>
+{% assign current_volume = nil %}
+{% if page.book_volume %}
+    {% for volume in book.volumes %}
+        {% if volume.key == page.book_volume %}
+            {% assign current_volume = volume %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+<div class="sidebar well sidebar-book sidebar-book-shell">
+    <div class="sidebar-book-hero">
+        <span class="sidebar-book-kicker">Book</span>
+        <h1>{{ book.title }}</h1>
+        <p>{{ book.subtitle }}</p>
+    </div>
+
+    <div class="sidebar-book-section">
+        <h2>开始阅读</h2>
+        <ul class="sidebar-book-list">
+            <li><a href="{{ site.baseurl }}/book/">书页首页</a></li>
+            <li><a href="{{ site.baseurl }}/book/guide/preface/">前言</a></li>
+            <li><a href="{{ site.baseurl }}/book/guide/essential-reading/">必读 12 章</a></li>
+            <li><a href="{{ site.baseurl }}/book/full-index/">完整索引</a></li>
+        </ul>
+    </div>
+
+    <div class="sidebar-book-section">
+        <h2>导读入口</h2>
+        <ul class="sidebar-book-list">
+            {% for guide in book.guides %}
+            <li>
+                <a href="{{ site.baseurl }}{{ guide.url }}">{{ guide.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="sidebar-book-section">
+        <h2>全书结构</h2>
+        <ul class="sidebar-book-list sidebar-book-volumes">
+            {% for volume in book.volumes %}
+            <li{% if current_volume and current_volume.key == volume.key %} class="is-active"{% endif %}>
+                <strong>{{ volume.title }}</strong>
+                <span>第 {{ volume.start }} - {{ volume.end }} 章</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
     {% if page.book_active %}
     <div class="sidebar-book-current">
         <strong>当前阅读</strong>
         <span>{{ page.title }}</span>
+        {% if current_volume %}
+        <em>{{ current_volume.title }}</em>
+        {% elsif page.book_kind == "guide" %}
+        <em>导读页</em>
+        {% endif %}
     </div>
     {% endif %}
 </div>

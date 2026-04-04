@@ -1,4 +1,7 @@
 {% assign trans = site.data.values[site.lan] %}
+{% if page.book_active %}
+{% include book_sidebar.html %}
+{% else %}
 <div class="sidebar well">
     <header class="sidebar-header" role="banner">
         <a href="{{ site.baseurl }}/">
@@ -16,3 +19,4 @@
 </div>
 
 {% include book_sidebar.html %}
+{% endif %}

@@ -336,23 +336,102 @@
     color: #6c63ff;
 }
 
-.sidebar-book p {
-    color: #a0aec0;
-    font-size: 0.88em;
+.sidebar-book.sidebar-book-shell {
+    background: linear-gradient(180deg, #0f172a 0%, #172554 100%);
+    border: none;
+}
+
+.sidebar-book.sidebar-book-shell::before {
+    display: none;
+}
+
+.sidebar-book-hero {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-book-kicker {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-size: 0.75em;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #93c5fd;
+}
+
+.sidebar-book.sidebar-book-shell h1,
+.sidebar-book-section h2 {
+    color: #ffffff;
+}
+
+.sidebar-book.sidebar-book-shell h1 {
+    margin: 0 0 8px;
+    font-size: 1.35em;
+    line-height: 1.35;
+}
+
+.sidebar-book-hero p {
+    color: #cbd5e1;
+    font-size: 0.9em;
     line-height: 1.7;
-    margin-bottom: 14px;
+    margin: 0;
+}
+
+.sidebar-book-section {
+    margin-top: 18px;
+}
+
+.sidebar-book-section h2 {
+    margin: 0 0 10px;
+    font-size: 0.88em;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.sidebar-book-list li::before {
+    color: #93c5fd;
+}
+
+.sidebar-book-list a {
+    color: #e2e8f0;
+}
+
+.sidebar-book-list a:hover {
+    color: #ffffff;
+}
+
+.sidebar-book-volumes li {
+    margin-top: 10px;
+}
+
+.sidebar-book-volumes strong,
+.sidebar-book-current strong {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.sidebar-book-volumes span,
+.sidebar-book-current span,
+.sidebar-book-current em {
+    display: block;
+    color: #cbd5e1;
+    font-style: normal;
+    font-size: 0.88em;
+    line-height: 1.6;
+}
+
+.sidebar-book-volumes li.is-active strong {
+    color: #93c5fd;
 }
 
 .sidebar-book-current {
-    margin-top: 14px;
-    padding-top: 14px;
-    border-top: 1px solid rgba(255,255,255,0.08);
-}
-
-.sidebar-book-current strong {
-    display: block;
-    color: #fff;
-    margin-bottom: 6px;
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 @media (max-width: 991px) {
