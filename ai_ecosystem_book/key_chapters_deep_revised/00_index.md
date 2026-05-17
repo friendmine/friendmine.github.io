@@ -1,25 +1,25 @@
 ---
 layout: book_page
-title: "重点章节深修版索引"
-description: "本目录是《从砂子到智能协作文明》的主稿目录。"
+title: "全书目录"
+description: "《从砂子到智能协作文明》全书目录。"
 book_active: true
 permalink: /book/full-index/
 book_kind: guide
 guide_key: full-index
 ---
-# 重点章节深修版索引
+# 全书目录
 
-本目录是《从砂子到智能协作文明》的主稿目录。  
-当前版本已经不是材料堆积稿，而是一套按正式出版思路持续深修过的单章稿：一章一个文件，方便继续统稿、排版和分册出版。
+本目录收录《从砂子到智能协作文明》的导读页与正文章节。
+正文按一章一个文件组织，方便继续统稿、排版和分册出版。
 
-建议先读：
+导读入口：
 
 - [A30_blockbuster_edition_preface.md]({{ site.baseurl }}/book/guide/preface/)
 - [A31_book_description_blockbuster_edition.md]({{ site.baseurl }}/book/guide/book-description/)
 - [A32_essential_12_chapter_reading_path_blockbuster_edition.md]({{ site.baseurl }}/book/guide/essential-reading/)
 - [A20_glossary_for_late_mid_volume_and_early_final_volume.md]({{ site.baseurl }}/book/guide/glossary/)
 
-当前已完成：
+正文章节：
 
 - [01_what_is_information_deep_revised.md]({{ site.baseurl }}/book/chapters/001-what-is-information/)
 - [02_what_is_computation_deep_revised.md]({{ site.baseurl }}/book/chapters/002-what-is-computation/)
